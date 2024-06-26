@@ -25,4 +25,4 @@ jobs:
       run: scp -r ./* root@52.221.240.2:/www/wwwroot/pasindu.run.place
 
     - name: Verify deployment
-      run: ssh root@52.221.240.2 'ls -l /www/wwwroot/eranga.run.place'
+      run: ssh root@52.221.240.2 'ls -l /www/wwwroot/pasindu.run.place'
